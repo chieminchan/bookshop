@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>编辑书本信息</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/upload.css">	
+</head>
+<body>
+	<!-- 导航条 -->
+	<nav class="navbar">
+		<div class="nav-menu">
+			<ul class="menu">
+				<li><a class="active" href="index.html">首页</a></li>
+				<li><a href="#">书籍良品</a></li>
+				<li><a href="#">求书区</a></li>
+				<li><a href="#">服务区</a></li>
+			</ul>				
+		</div><!-- nav-menu -->
+
+		<form class="nav-search">
+			<input type="search" class="searchIn" placeholder="搜图书...">
+			<button class="search-logo"><img src="img/search2.png"></button>
+		</form>
+
+		<div class="nav-info">
+			<a href="#" class="username">chieminchan</a>
+			<a href="myBookself.html" class="bookshelf">||&nbsp;&nbsp;&nbsp;我的书架</a>
+			<a href="#" class="logout">[ 退 出 ]</a>
+		</div> <!-- nav-info-end -->
+	</nav>
+	<div class="titleName">
+		<h3>编辑二手书信息</h3>
+	</div>
+
+	<div class="container">
+		<form>
+			<p>
+				<span class="pic-icon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				修改书图片： <input type="file" name="book-pic" id="book-file">
+				<img id="book-pic" src="img/loadPic.png">
+			</p>
+			<p>
+				<span class="name-icon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				书&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：<input type="text" name="book-name">				
+			</p>
+			<p>
+				<span class="author-icon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				作&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;者：<input type="text" name="book-author">
+			</p>
+			<p>
+				<span class="orign-icon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				书&nbsp;本&nbsp;&nbsp;原&nbsp;价：<input type="text" name="book-orign">	
+			</p>
+			<p>
+				<span class="price-icon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				书&nbsp;本&nbsp;&nbsp;售&nbsp;价：<input type="text" name="book-price">	
+			</p>			
+			<p>
+				<span class="press-icon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				出&nbsp;&nbsp;&nbsp;&nbsp;版&nbsp;&nbsp;&nbsp;社：<input type="text" name="book-press">	
+			</p>
+			<p>
+				<span class="time-icon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				出&nbsp;版&nbsp;&nbsp;时&nbsp;间：<input type="month" name="book-time">	
+			</p>
+			<p>
+				<span class="version-icon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				印&nbsp;刷&nbsp;&nbsp;版&nbsp;本：<input type="text" name="book-version">	
+			</p>
+			<p>
+				<span class="condition-icon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				书&nbsp;本&nbsp;&nbsp;品&nbsp;相：<input type="text" name="book-condition">	
+			</p>
+			<p>
+				<span class="desc-icon">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				书&nbsp;本&nbsp;&nbsp;描&nbsp;述：<input type="text" name="book-desc">
+			</p>
+
+			<input type="submit" class="submit-btn" name="book-submit">															
+		</form>
+	</div>
+	<footer>
+		<a href="#">©2018-2019 二手书交易</a>
+		<a href="#">意见反馈&nbsp;&nbsp;&nbsp;联系我们&nbsp;&nbsp;&nbsp;隐私权声明&nbsp;&nbsp;&nbsp;使用条款</a>
+	</footer>
+	<script type="text/javascript" src="js/jquery-3.2.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("#book-file").change(function(){
+				var filePath = $(this).val().split("\\");
+				var len = filePath.length;
+				var file = filePath[len-1];
+				if (!file) {
+					filePath = "img/loadPic.png"
+				}
+				filePath = "img/"+file;
+				// console.log(filePath);
+				$("#book-pic").attr("src",filePath);
+
+			})
+		});
+	</script>
+</body>
+</html>
