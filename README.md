@@ -1,7 +1,7 @@
 # Bookshop-For-School
 
 ## 简介
-  这是一个使用flex响应式布局的校园二手书交易网站
+  这是一个使用flex响应式布局的校园二手书交易网站<br/>
   在使用后台语言Java搭建实现动态加载前,大概的静态页面结构和样式
   <br/><br/>
 
@@ -18,3 +18,5 @@
    
    
 ## 页面效果展示
+* 登陆页
+[![login]](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/login.png)  
