@@ -20,3 +20,20 @@
 ## 页面效果展示
 * 登陆页
 ![login](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/login.png)
+
+* 首页
+![index](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/index.png)
+
+* 图书页
+![book](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/bookStore.jpg)
+
+* 书本详情页
+![book](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/bookDetail.jpg)
+
+* 我的书架页
+![bookshelf](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/myBookshelf.jpg)
+
+* 书本信息编辑/上传页
+![upload](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/upload.jpg)
+
+
