@@ -19,4 +19,4 @@
    
 ## 页面效果展示
 * 登陆页
-[![login]](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/login.png)  
+![login](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/login.png)
