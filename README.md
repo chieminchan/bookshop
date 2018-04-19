@@ -19,21 +19,21 @@
    
 ## 页面效果展示
 * 登陆页
-![login](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/login.png)
+![login](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/login.png)<br/>
 
-<br/>
+
 * 首页
-![index](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/index.png)
+![index](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/index.png)<br/>
 
-<br/>
+
 * 图书页
-![book](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/bookStore.jpg)
+![book](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/bookStore.jpg)<br/>
 
-<br/>
+
 * 书本详情页
-![book](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/bookDetail.jpg)
+![book](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/bookDetail.jpg)<br/>
 
-<br/>
+
 * 我的书架页
 ![bookshelf](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/myBookshelf.jpg)
 
