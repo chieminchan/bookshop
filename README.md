@@ -35,9 +35,9 @@
 
 
 * 我的书架页
-![bookshelf](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/myBookshelf.jpg)
+![bookshelf](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/myBookshelf.jpg)<br/>
 
-<br/>
+
 * 书本信息编辑/上传页
 ![upload](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/upload.jpg)
 
