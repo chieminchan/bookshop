@@ -21,18 +21,23 @@
 * 登陆页
 ![login](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/login.png)
 
+<br/>
 * 首页
 ![index](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/index.png)
 
+<br/>
 * 图书页
 ![book](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/bookStore.jpg)
 
+<br/>
 * 书本详情页
 ![book](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/bookDetail.jpg)
 
+<br/>
 * 我的书架页
 ![bookshelf](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/myBookshelf.jpg)
 
+<br/>
 * 书本信息编辑/上传页
 ![upload](https://github.com/chieminchan/Bookshop-For-School/blob/master/showPage/upload.jpg)
 
